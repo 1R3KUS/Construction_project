@@ -530,7 +530,8 @@ html {
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
   .footer__map div iframe {
-    width: 370px;
+    width: 350px;
+    height: 300px;
   }
 
   .footer__end {
@@ -538,6 +539,30 @@ html {
   }
 
   /*.content__comp-info*/
+
+  .header__logo {
+    width: 230px;
+  }
+
+  .content__header h1 {
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.6);
+    font-size: 38px;
+    margin-bottom: 40px;
+  }
+
+  .logo i svg {
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+  }
+
+  .logo-name {
+    font-size: 22px;
+  }
+
   .content__comp-info {
     height: 550px;
     flex-direction: column;
@@ -553,12 +578,8 @@ html {
   }
 
   .footer__end {
-    width: 100%;
     height: 450px;
-    background-color: #1e2d3b;
     padding: 50px 40px;
-    display: flex;
-    justify-content: space-between;
     flex-direction: column;
   }
 }
