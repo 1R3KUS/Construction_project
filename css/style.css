@@ -107,7 +107,7 @@ html {
 /*content__services*/
 
 .content__services {
-  height: 700px;
+  height: 800px;
   width: 100%;
 }
 
@@ -116,7 +116,8 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
+  padding-top: 100px;
+  margin-top: 50px;
   margin-bottom: 40px;
 }
 
@@ -223,7 +224,7 @@ html {
 
 .content__projects {
   width: 100%;
-  height: 1200px;
+  height: 1300px;
 }
 
 .projects__photos {
@@ -238,9 +239,11 @@ html {
   margin-bottom: 20px;
 }
 
+/*contacts*/
 .contacts {
   width: 100%;
-  height: 700px;
+  height: 800px;
+  background-color: #1e2d3b;
 }
 
 /*footer__map*/
@@ -399,6 +402,12 @@ html {
     height: 650px;
   }
 
+  .heading {
+    padding-top: 100px;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
   .about__title {
     margin-right: 120px;
   }
@@ -412,10 +421,19 @@ html {
   .footer__end {
     padding: 50px 150px;
   }
+
+  .content__projects {
+    width: 100%;
+    height: 1200px;
+  }
+
+  .projects__photos img {
+    width: 400px;
+  }
 }
 
 /* Portrait tablets and medium desktops */
-@media (max-width: 768px) {
+@media (max-width: 994px) {
   /*.content__about*/
   .content__about {
     height: 750px;
@@ -431,7 +449,7 @@ html {
 
   /*content__projects*/
   .content__projects {
-    height: 1750px;
+    height: 1150px;
   }
 
   .projects__photos div img {
@@ -520,11 +538,37 @@ html {
 }
 
 /* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 782px) {
+  /*content__projects*/
+  .content__projects {
+    height: 1000px;
+  }
+
+  .projects__photos div img {
+    width: 300px;
+  }
 }
 
 /* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
+@media (max-width: 681px) {
+  .content__projects {
+    height: 1700px;
+  }
+
+  .footer__map div iframe {
+    width: 450px;
+    height: 400px;
+  }
+
+  .footer__end {
+    height: 450px;
+    padding: 50px 40px;
+    flex-direction: column;
+  }
+
+  .content__services {
+    height: 1850px;
+  }
 }
 
 /* Landscape phones and smaller */
