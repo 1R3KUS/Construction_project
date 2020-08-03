@@ -569,6 +569,10 @@ html {
   .content__services {
     height: 1850px;
   }
+
+  .contacts {
+    height: 650px;
+  }
 }
 
 /* Landscape phones and smaller */
