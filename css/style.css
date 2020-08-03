@@ -395,7 +395,7 @@ html {
   display: flex;
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1460px) {
   .about__title {
     margin-right: 120px;
   }
