@@ -568,6 +568,8 @@ html {
   /*.content__about*/
   .content__about {
     height: 4000px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .footer__map div iframe {
