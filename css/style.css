@@ -176,6 +176,7 @@ html {
   flex-direction: column;
   padding-right: 350px;
   padding-left: 350px;
+  padding-bottom: 30px;
 }
 
 .about__title p {
@@ -406,10 +407,17 @@ html {
   display: flex;
 }
 
+@media (max-width: 1780px) {
+  .content__about {
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+}
+
 @media (max-width: 1460px) {
   .content__about {
-    padding-right: 150px;
-    padding-left: 150px;
+    padding-right: 100px;
+    padding-left: 100px;
   }
 }
 
@@ -484,7 +492,9 @@ html {
 
   /*.content__about*/
   .content__about {
-    height: 2100px;
+    height: 2150px;
+    padding-right: 60px;
+    padding-left: 60px;
   }
 
   /*.content__comp-info*/
@@ -539,6 +549,11 @@ html {
 
   /*.content__about*/
   .content__about {
+    height: 3800px;
+  }
+
+  /*.content__about*/
+  .content__about {
     padding-right: 50px;
     padding-left: 50px;
   }
@@ -547,12 +562,12 @@ html {
 /* Landscape phones and portrait tablets */
 @media (max-width: 681px) {
   .content__projects {
-    height: 1000px;
+    height: 1700px;
   }
 
   /*.content__about*/
   .content__about {
-    height: 3800px;
+    height: 4000px;
   }
 
   .footer__map div iframe {
